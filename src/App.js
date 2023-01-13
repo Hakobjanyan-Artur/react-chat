@@ -1,9 +1,10 @@
 import './App.css';
+import { Auth } from './components/Auth';
 
 function App() {
   return (
     <div className="App">
-      <h1>Reactchat</h1>
+      <Auth />
     </div>
   );
 }
