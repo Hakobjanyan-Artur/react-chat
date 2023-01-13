@@ -19,7 +19,7 @@ function App() {
   }
   return (
     <div>{room ? 
-      <Chat />
+      <Chat room={room}/>
       : 
       <div>
         <label>Enter Room name:</label>
